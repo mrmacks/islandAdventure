@@ -1,33 +1,42 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:paddingTop="100px">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/welcomeTextMessage"
-        android:text="@string/welcome_message"
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18dp"/>
+        android:padding="24dp"
+        android:text="@string/welcome_message"/>
     <TextView
-        android:id="@+id/story"
+        android:id="@+id/storyTextView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/intro_story"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <Button
+            android:id="@+id/OptionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/OptionB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
+            android:id="@+id/OptionC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </LinearLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Island Adventure!</string>
     <string name="welcome_message">Hello, Adventurer! Welcome to our game!</string>
+    <string name="intro_story">You Have Crashed On A Deserted Island, Get REKT!!!!!!!!!!</string>
 </resources>
