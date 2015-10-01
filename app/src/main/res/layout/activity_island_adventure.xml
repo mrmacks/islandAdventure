@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:text="@string/welcome_message"/>
+
     <TextView
         android:id="@+id/storyTextView"
         android:layout_width="wrap_content"
@@ -18,25 +19,22 @@
         android:padding="24dp"
         android:text="@string/intro_story"/>
 
-    <LinearLayout
+    <Button
+        android:id="@+id/OptionA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:text="Jump off of a bridge, cuz u suck"/>
 
-        <Button
-            android:id="@+id/OptionA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/OptionB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jump off of the twin towers, cuz u suck"/>
 
-        <Button
-            android:id="@+id/OptionB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/OptionC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/OptionC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jump into a pool of sharks, cuz us suck m8"/>
 
 </LinearLayout>
