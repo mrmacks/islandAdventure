@@ -4,8 +4,18 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class IslandAdventure extends Activity {
+
+    private Button mOptA;
+    private Button mOptB;
+    private Button mOptC;
+    private TextView mHeader;
+    private TextView mBody;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
