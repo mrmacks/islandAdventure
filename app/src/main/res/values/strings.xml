@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Choosatron</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Island Adventure!</string>
+    <string name="welcome_message">Hello, Adventurer! Welcome to our game!</string>
 </resources>
